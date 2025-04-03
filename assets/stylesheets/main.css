@@ -1,0 +1,200 @@
+body {
+	font-family: Arial;
+	margin: 0;
+  }
+
+.header {
+		padding: 60px;
+		text-align: center;
+		background: #1abc9c;
+		color: white;
+		padding: 0;
+}
+body>a{
+		position: absolute;
+		margin-left: -1000px;
+}
+	
+body>a:focus{
+	margin: 0;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: rgb(8, 6, 6);
+	padding: 10px;
+}
+h2{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 280%;
+	margin: 5px;
+}
+h3{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 180%;
+}
+
+.main-content img{
+	display: inline;
+	border-radius: 10%;
+}
+
+.main-content p{
+	font-size: 20px;
+	width: 300px;
+	display: inline-block;
+	margin-left:25px ;
+
+}
+
+.main-heading{
+	margin: 0;
+	font-size:300%;
+	height: 200px;
+	align-content: center;
+}
+
+.main-heading a:link{
+	text-decoration: none;
+	color:#00008A;
+}
+.main-heading a:visited{
+	color:#00008A;
+}
+.main-heading a:hover{
+	color: rgb(64, 0, 66);
+}
+
+
+/* Style the top navigation bar */
+.nav{
+	display: flex;
+	flex-direction: row;
+	background-color: #333;
+	width: 100%;
+	margin: 0;
+}
+
+/* Style the navigation bar links */
+.nav a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+/* Change color on hover */
+.nav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  /* Column container */
+  .row {
+    display: flex;
+    flex-direction: row; /* ✅ This makes it a two-column layout */
+    gap: 20px; /* Adds space between the two columns */
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+.side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+  
+.side>p{
+	font-size: 25px;
+    font-family: auto;
+}
+  /* Main column */
+.main-content {
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+	order:2
+}
+
+.main-content img{
+	width: 30%;
+	height: auto;
+}
+
+.nav-bottom{
+	display: flex;
+	flex-direction: row;
+	background-color: #333;
+	width: 100%;
+	margin: 0;
+	justify-content: center;
+}
+
+/* Style the navigation bar links */
+.nav-bottom a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+/* Change color on hover */
+.nav-bottom a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #333;
+	color: white;
+}
+h4{
+	color: rgb(8, 6, 6);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+.row-Gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column-Gallery  {
+	padding: 0 4px;
+	border:double steelblue 5px
+  }
+  
+  .column-Gallery img {
+	width: 200px;;
+	margin-top: 8px;
+	margin: 10px;
+	vertical-align: middle;
+	opacity: .5;
+	border: solid 1px #000000;
+	transition:border-radius 0.6s ease 2s, size 0.6s ease 2s,transform 0.6s ease 2s; 
+  }
+  
+  .column-Gallery img:hover ,.column-Gallery img:focus {
+	opacity: 1;
+	border-radius: 10%;
+	transform:rotate(360deg);
+  }
+
+  #Gallery-View{
+	display: block;
+	height:300px ;
+	background-color: aqua;
+	background-size: cover;
+	padding: 0 4px;
+	border:double steelblue 5px;
+	margin-top: 5px;
+	text-align: center;
+	align-content: center;
+	font-size: 150%;
+	background-position: center;
+  }
+  
